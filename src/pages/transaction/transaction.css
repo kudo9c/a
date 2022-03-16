@@ -1,0 +1,100 @@
+.transaction{
+    flex: 4;
+    padding: 20px;
+}
+
+.transTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.transTitle{
+    color: black;
+    font-weight: normal;
+}
+
+.transSaveBtn{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    margin-right: 18px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.transWrapper{
+    display: flex;
+}
+
+.transLeft {
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.transRight {
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.transForm{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.input {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.transItemWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #424242;
+}
+
+.transItemLeft {
+    display: flex;
+    flex: 5;
+}
+
+.transInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.transItemImg {
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+}
+
+.transItemInfo{
+    color: black;
+    font-weight: normal;
+}
+
+.transItemRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.transItemTotal {
+    margin-top: 5px;
+    text-align: right;
+}

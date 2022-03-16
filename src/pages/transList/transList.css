@@ -1,0 +1,37 @@
+.transList{
+    flex: 4;
+    padding: 20px;
+    
+}
+
+
+.transListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.SearchInput{
+    margin-bottom: 10px;
+    border: none;
+    
+    font-size: 16px;
+}
+
+.searchIcon{
+    color: #424242;
+    position: relative;
+    top: 7px;
+    margin-right: 10px;
+}
+
+.transListDelete{
+    color: red;
+    cursor: pointer;
+
+}
